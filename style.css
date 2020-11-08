@@ -24,6 +24,12 @@ div.control {
     align-items: center;
 }
 
+/* mode */
+div.control__mode{
+    margin-bottom: 20px;
+}
+
+/* brush size */
 div.control__range{
     margin-bottom: 20px;
 }
@@ -31,10 +37,10 @@ div.control__range>input {
     cursor: pointer;
 }
 
+/* button */
 div.control__btns{
     margin-bottom: 20px;
 }
-
 div.control__btns>button{
     all: unset;
     background-color: white;
@@ -46,16 +52,15 @@ div.control__btns>button{
 div.control__btns button:hover{
     background-color: cornsilk;
 }
-
 div.control__btns button:active{
-    background-color: blue;
-    transform: scale(0.9) 
+    /* background-color: blue; */
+    transform: scale(0.99) 
 }
 
+/* color */
 div.control__colors{
     display: flex;
 }
-
 div.control__colors>div.control__color{
     width: 50px;
     height: 50px;

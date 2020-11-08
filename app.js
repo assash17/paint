@@ -97,6 +97,10 @@ const init = () =>{
         // canvas 우클릭 드롭다운 메뉴 방지
         canvas.addEventListener("contextmenu", handleCM)
 
+        // 흰 바탕으로 한번 초기화 해줌
+        ctx.fillStyle="white";
+        ctx.fillRect(0,0,canvas.width, canvas.height);
+
         ctx.strokeStyle=DEFAULT_STYLE;
         ctx.fillStyle=DEFAULT_STYLE;
         ctx.lineWidth=DEFAULT_LINE_WIDTH;

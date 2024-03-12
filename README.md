@@ -1,5 +1,5 @@
 # paint
-https://jeong-seonghoon.github.io/paint/
+https://assash17.github.io/paint/
 
 # 실행방법
 1. dependency mobule 설치
